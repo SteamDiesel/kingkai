@@ -3,12 +3,16 @@
 		<transition name="fade">
 			<img
 				class="rounded-md"
-				:src="image"
+				:src="media.image"
 				v-on:load="onLoaded"
 				v-show="loaded"
 			/>
+
 			<!-- <img class="icon" v-bind:src="src" > -->
 		</transition>
+		<p class="text-xs">
+			{{media.custom_properties.description}}
+		</p>
 	</div>
 </template>
 
@@ -16,7 +20,7 @@
 export default {
 	name: "ImageComponent",
 	props: {
-		image: String
+		media: Object
 	},
 	data() {
 		return {

@@ -1,7 +1,7 @@
 <template>
 	<div class="bg-gray-900 min-h-screen text-gray-200" id="app">
-		<div class="flex flex-col items-center">
-			<h1 class="text-4xl">Kai Jay Cowbell</h1>
+		<div class="flex flex-col items-center sticky top-0 bg-gray-900">
+			<h1 class="text-4xl">Kai Jay Cawdell</h1>
 			<h2>18/08/2003 - 25/06/2020</h2>
 			
 		</div>

@@ -8,9 +8,9 @@
 		</div>
 		<div class="flex flex-wrap justify-center">
 			<ImageComponent
-				v-for="(p, index) in post.images"
+				v-for="(p, index) in post.media"
 				:key="index"
-				:image="p"
+				:media="p"
 			/>
 		</div>
 	</div>

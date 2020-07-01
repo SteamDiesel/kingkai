@@ -1,6 +1,6 @@
 module.exports = {
 	devServer: {
-		host: 'kingkai.test'
+		host: 'localhost'
 	},
 	pwa: {
 		name: 'KingKai',

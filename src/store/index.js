@@ -6,7 +6,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
 	state: {
-		uri: 'http://media-api.test/api/',
+		uri: 'https://admin.kingkai.org/api/',
 		data: [],
 		size: '',
 	},
