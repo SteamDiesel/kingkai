@@ -4,8 +4,8 @@ module.exports = {
 	},
 	pwa: {
 		name: 'KingKai',
-		themeColor: '#2d3748',
-		msTileColor: '#2d3748',
+		themeColor: '#1A202C',
+		msTileColor: '#1A202C',
 		appleMobileWebAppCapable: 'no',
 		appleMobileWebAppStatusBarStyle: 'default',
 		manifestPath: 'manifest.json',
