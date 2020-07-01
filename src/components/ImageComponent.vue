@@ -1,8 +1,8 @@
 <template>
-	<div class="py-1 md:px-1">
+	<div class="py-1 md:px-1 xl:w-full">
 		<transition name="fade">
 			<img
-				class="rounded-md"
+				class="rounded-md xl:w-full"
 				:src="media.image"
 				v-on:load="onLoaded"
 				v-show="loaded"
@@ -10,7 +10,7 @@
 
 			<!-- <img class="icon" v-bind:src="src" > -->
 		</transition>
-		<p class="text-xs">
+		<p class="text-xs xl:text-base">
 			{{media.custom_properties.description}}
 		</p>
 	</div>

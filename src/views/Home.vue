@@ -1,43 +1,36 @@
 <template>
-	<div class="bg-gray-900">
-		<div class="mx-auto flex flex-wrap justify-start items-center">
-			<PostComponent v-for="(post, index) in data" :key="index" :post="post"></PostComponent>
-
+<div>
+	<Header/>
+	<div
+		class="min-h-screen flex justify-center items-center splash-small"
+	>
+	
+		<div class="text-white" style="">
+			<h3 class="">In loving memory of</h3>
+			<h1 class="text-4xl mb-12">Kai Jay Cawdell</h1>
+			
 		</div>
-		
 	</div>
+</div>
+	
 </template>
 
 <script>
 // @ is an alias to /src
-import PostComponent from "@/components/PostComponent.vue";
-import { mapState, mapActions } from "vuex";
+import Header from "@/components/Header.vue";
+import { mapState } from "vuex";
 export default {
 	name: "Home",
 	components: {
-		PostComponent
+		Header
 	},
-	data(){
-		return{
-
-		}
+	data() {
+		return {};
 	},
-	computed:{
-		...mapState(["data"])
-	},
-	methods:{
-		...mapActions(["initialize"])
-	},
-	mounted(){
-		this.initialize()
+	computed: {
+	
+		...mapState(["data", "small", "medium", "large", "xl"])
 	}
 };
 </script>
-<style>
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
-}
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-  opacity: 0;
-}
-</style>
+
