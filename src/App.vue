@@ -43,8 +43,8 @@ export default {
 	opacity: 0;
 }
 .splash-small {
-	background-color: rgba(26, 32, 44, 0.85) !important;
-	background-image: url('/img/lander-small.jpg');
+	background-color: rgba(26, 32, 44, 0.90) !important;
+	background-image: url('/img/lander-small-adjusted.jpg');
 	background-blend-mode: color; 
 	background-repeat: no-repeat; 
 	background-attachment: fixed; 

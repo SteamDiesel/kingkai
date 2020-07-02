@@ -7,7 +7,7 @@
 	
 		<div class="text-white" style="">
 			<h3 class="">In loving memory of</h3>
-			<h1 class="text-4xl mb-12">Kai Jay Cawdell</h1>
+			<h1 class="text-4xl sm:text-6xl mb-12">Kai Jay Cawdell</h1>
 			
 		</div>
 	</div>
