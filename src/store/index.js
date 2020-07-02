@@ -7,7 +7,9 @@ Vue.use(Vuex);
 export default new Vuex.Store({
 	state: {
 		uri: 'https://admin.kingkai.org/api/',
+		// uri: 'http://media-api.test/api/',
 		data: [],
+		abouts: [],
 		size: '',
 		
 	},
@@ -38,6 +40,7 @@ export default new Vuex.Store({
 				'size': this.size
 			}).then(response => {
 				this.state.data = response.data.posts
+				this.state.abouts = response.data.abouts
 			})
 		}
 	},

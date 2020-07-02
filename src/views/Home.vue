@@ -10,6 +10,7 @@
 			<h1 class="text-4xl sm:text-6xl mb-12">Kai Jay Cawdell</h1>
 			
 		</div>
+		<!--  -->
 	</div>
 </div>
 	
@@ -29,7 +30,7 @@ export default {
 	},
 	computed: {
 	
-		...mapState(["data", "small", "medium", "large", "xl"])
+		...mapState(["data"])
 	}
 };
 </script>
