@@ -2,7 +2,7 @@
 	<div>
 		<Header />
 		<div class="p-4 splash-small min-h-screen pt-16 flex items-center">
-			<div class="lg:ml-20">
+			<div class="lg:mx-20">
 				<transition name="fade">
 					<div v-if="display" v-html="display"></div>
 				</transition>

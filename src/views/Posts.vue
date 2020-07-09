@@ -16,7 +16,7 @@
 // @ is an alias to /src
 import Header from "@/components/Header.vue";
 import PostComponent from "@/components/PostComponent.vue";
-import { mapState, mapActions } from "vuex";
+import { mapState } from "vuex";
 export default {
 	name: "Home",
 	components: {
@@ -32,11 +32,9 @@ export default {
 		...mapState(["data"])
 	},
 	methods:{
-		...mapActions(["initialize"])
+		
 	},
-	mounted(){
-		this.initialize()
-	}
+	
 };
 </script>
 <style>
