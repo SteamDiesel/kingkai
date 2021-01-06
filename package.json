@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cloudinary-vue": "^1.1.1",
     "core-js": "^3.6.5",
     "postcss": "^7.0.32",
